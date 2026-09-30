@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96" role="img" aria-label="CodeNotchBar">
+  <rect x="1" y="1" width="94" height="94" rx="22" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  <!-- notch hanging from the top edge, with flared shoulders -->
+  <path d="M14 1A14 14 0 0 1 28 15V34A14 14 0 0 0 42 48H54A14 14 0 0 0 68 34V15A14 14 0 0 1 82 1Z" fill="#f8fafc"/>
+  <!-- usage ring: track + 70% arc -->
+  <circle cx="48" cy="26" r="12" fill="none" stroke="#cbd5e1" stroke-width="5"/>
+  <circle cx="48" cy="26" r="12" fill="none" stroke="#26b873" stroke-width="5" stroke-linecap="round"
+          stroke-dasharray="52.8 75.4" transform="rotate(-90 48 26)"/>
+  <!-- green / amber / red thresholds -->
+  <circle cx="32" cy="74" r="5" fill="#26b873"/>
+  <circle cx="48" cy="74" r="5" fill="#e6a61a"/>
+  <circle cx="64" cy="74" r="5" fill="#db3d33"/>
+</svg>
